@@ -1,0 +1,13 @@
+import math
+
+fib_choice = int(input("how much number should i do in fibonacci : " ))
+
+def fib(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)  # the main formula
+
+print([fib(i) for i in range (fib_choice)])
