@@ -1,0 +1,5 @@
+num = int(input("Enter a number: "))
+devisors = [i for i in range(1,num) if num % i == 0]
+print(devisors)
+
+# in this code we can find a number devisors.
